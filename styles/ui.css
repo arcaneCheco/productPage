@@ -1,0 +1,39 @@
+.title {
+  color: white;
+  font-size: 10vh;
+  position: absolute;
+  padding-top: 10vh;
+  padding-left: 5vw;
+}
+
+.viewButtons {
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  display: flex;
+}
+
+.explode,
+.assemble {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 4px;
+  background: #00000077;
+  border: 1px solid #ffffff77;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  visibility: hidden;
+}
+
+.toAssembly {
+  color: white;
+  font-size: 5vh;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10vh;
+  padding-left: 5vw;
+  visibility: hidden;
+  cursor: pointer;
+}

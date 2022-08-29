@@ -1,0 +1,67 @@
+
+.infoLabel {
+    position: absolute;
+    /* pointer-events: none;
+    pointer-events: visible; */
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.marker {
+    position: absolute;
+    pointer-events: all;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000000;
+  border: 3px solid #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+/* .point.visible .label {
+  transform: scale(1, 1);
+} */
+
+.actionButtons .text {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.text {
+  /* position: absolute; */
+  /* pointer-events: none; */
+  touch-action: none;
+  user-select: none;
+  padding: 20px;
+  border-radius: 4px;
+  background: #00000077;
+  border: 1px solid #ffffff77;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  /* width: 5vh; */
+  max-width: 200px;
+  /* transform: translate(100px,-100px); */
+}
+
+.text__title {
+    /* line-height: 1.3em; */
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.text__description {
+    line-height: 1.3em;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.point:hover .text {
+  opacity: 1;
+}

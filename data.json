@@ -1,0 +1,49 @@
+{
+  "markers": [
+    {
+      "id": "tire",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "title": "Tire",
+      "position": [0.5487009015097892, 0.6264712761383575, -0.6297314904056914],
+      "descriptionOffset": [100, -100]
+    },
+    {
+      "id": "rim",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "title": "Rim",
+      "position": [0.7, 0, 0],
+      "descriptionOffset": [50, 100]
+    },
+    {
+      "id": "break",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "title": "Break",
+      "position": [
+        -0.18767115356531683, 0.10646507279832235, 0.32973867206519747
+      ],
+      "descriptionOffset": [-420, -180]
+    }
+  ],
+  "assets": [
+    {
+      "type": "texture",
+      "name": "carbonFibre",
+      "src": "assets/carbon_fibre.jpeg"
+    },
+    {
+      "type": "texture",
+      "name": "tireBanner",
+      "src": "assets/tire1Map.png"
+    },
+    {
+      "type": "model",
+      "name": "wheel",
+      "src": "assets/tires.glb"
+    },
+    {
+      "type": "cubeTexture",
+      "name": "envMap1",
+      "src": "assets/envMap"
+    }
+  ]
+}
